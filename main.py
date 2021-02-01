@@ -5,7 +5,7 @@ import pickle
 from sklearn.ensemble import RandomForestClassifier
 
 # load the Random Forest Classifier
-with open("./Kaggle_Titanic/rfSimple.pkl", 'rb') as file:
+with open("./rfSimple.pkl", 'rb') as file:
     rf = pickle.load(file)
 
 # the model takes the following variables as input:
