@@ -65,4 +65,5 @@ SurvivalProba = rf.predict_proba(inputDF)[0,1]
 survPerc = round(SurvivalProba*100, 1)
 
 # display survival probability
+st.image("./static/titanic.jpg", use_column_width=True)
 st.write("Your Survival Probability based on the information provided is: {}%.".format(survPerc))
