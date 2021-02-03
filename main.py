@@ -42,7 +42,7 @@ if sex=="female":
     Sex_female=1
 else:
     Sex_male=1
-embarked = st.sidebar.selectbox("Which is your port of Embarkation?", ("Cherbourg", "Queenstown", "Southhampton"))
+embarked = st.sidebar.selectbox("Which is your port of Embarkation?", ("Cherbourg", "Queenstown", "Southampton"))
 Embarked_C = 0
 Embarked_Q = 0
 Embarked_S = 0
